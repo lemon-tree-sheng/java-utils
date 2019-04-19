@@ -4,4 +4,9 @@
 #### 可供使用的注解
 * javax.validation.constraints 包下面的内置注解
 * org.hibernate.validator.constraints 包下面 hibernate 新增的注解
-#### 引入 hibernate 相关依赖即可
+#### 使用步骤
+* 引入 hibernate 相关依赖
+```
+Group ID: org.hibernate Artifact ID: hibernate-validator Version: 5.2.5.Final
+```
+* 接口参数打上 @Valid 即可
